@@ -33,3 +33,7 @@ group :production do
    gem 'rails_12factor', '0.0.2'
 end 
 
+# Add development test environment
+group :development, :test do
+   gem 'rspec-rails', ">= 2.0.0"
+end
